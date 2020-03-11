@@ -1,0 +1,218 @@
+body {
+    margin: 0%; /*display to the edge*/
+}
+
+/* navabr */
+.navbar  {
+    overflow: hidden;
+    background-color: midnightblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* navbar text */
+.navbar a {
+    float: left;
+    display: block;
+    color: whitesmoke;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Avant Garde, Helvetica;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* navbar hover */
+.navbar a:hover  {
+    background-color: whitesmoke;
+    color: midnightblue;
+    font-weight: bold;
+}
+
+.navbar a.active {
+    background-color: gray;
+}
+
+/* Video */
+#digital_world  {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    max-width: 100%;
+    z-index: -1;
+}
+
+/* Video text */
+
+.video_text  {
+    background-color: black;
+    color: whitesmoke;
+    width: 100%;
+    padding: 20px;
+    margin-top: 25%;
+    opacity: 75%;
+}
+
+/* table - column styling */
+
+*  {
+    box-sizing: border-box;
+}
+
+
+.Column_1  {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3%;
+    height: 400px;
+    background-color: slategray;
+}
+
+.Column_2  {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 2%;
+    height: 400px;
+    background-color: silver;
+}
+
+.Column_3  {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    padding-top: 3.5%;
+    height: 450px;
+    background-color: whitesmoke;
+}
+
+.Row:after  {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Heading 1 elements  */
+h1  {
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", Optima;
+    text-align: center;
+    margin-top: 3%;
+    color: midnightblue;
+}
+
+/* Paragraph elements */
+
+p  {
+    font-family: Perpetua, Rockwell Extra Bold;
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/* anchor */
+a  {
+    color: blue;
+}
+
+/* quote */
+
+q  {
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* image */
+
+img  {
+    filter: grayscale(50%);
+    border-radius: 12px;
+    max-width: 100%;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* contact */
+
+input[type=text]  {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+/* submit */
+input[type=submit]  {
+    background-color: midnightblue;
+    color: antiquewhite;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Perpetua, Rockwell Extra Bold;
+}
+
+/* hover submit */
+
+input[type=submit]:hover  {
+    background-color: whitesmoke;
+    color: black;
+    font-weight: bold;
+    transform: scale(1.2);
+    transition: transform 1s;
+}
+
+/* form */
+
+form  {
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 12px;
+    font-family: "Trebuchet MS", Optima;
+}
+
+/* Paragraph Hover */
+
+p:hover  {
+    color: whitesmoke;
+    transition: transform 0.5s;
+    transform: scale(1.01);
+}
+
+/* heading 1 hover */
+h1:hover  {
+    color: black;
+    font-weight: normal;
+}
+
+/* image hover */
+img:hover  {
+    filter: grayscale(10%);
+    transition: transform 1s;
+    transform: scale(1.05)
+}
+
+/* footer */
+footer  {
+    padding: 1%;
+    background-color: silver;
+}
+
